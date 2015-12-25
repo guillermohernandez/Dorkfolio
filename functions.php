@@ -169,15 +169,8 @@ function dorkfolio_scripts() {
 	/* Foundation Init JS */
 	wp_enqueue_script( 'foundation-init-js', get_template_directory_uri() . '/foundation.js', array( 'jquery' ), '1', true );
 
-
 	// Add Genericons, used in the main stylesheet.
-	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.2' );
-
-	// Add Themify icons, used in the main stylesheet.
-	wp_enqueue_style( 'themify-icons', get_template_directory_uri() . '/css/themify-icons.css', array(), '' );
-	
-	// Add Font Awesome, used in the main stylesheet.
-	wp_enqueue_style( 'font-awesome', get_template_directory_uri() . '/css/font-awesome.css', array(), '' );
+	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/css/genericons.css', array(), '3.4.1' );
 
 	// Add custom fonts, used in the main stylesheet.
 	wp_enqueue_style( 'dorkfolio-fonts', dorkfolio_fonts_url(), array(), null );
