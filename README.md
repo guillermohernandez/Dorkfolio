@@ -1,6 +1,6 @@
 Dorkfolio Wordpress Theme
 ======
-**Dorkfolio** is a Wordpress theme forked from http://underscores.me
+**Dorkfolio** is a custom Wordpress theme forked from the starter theme http://underscores.me. Currently running on http://memohernandez.com
 
 ## Contact
 #### Guillermo Hernandez Jr
